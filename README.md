@@ -15,7 +15,6 @@ to contribute.
 6. [Prince](#prince1)
 7. [Klein](#klein1)
 
-1. [License](#license)
 
 <a name="craft"></a>
 ## CRAFT
