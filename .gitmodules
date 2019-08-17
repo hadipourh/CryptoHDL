@@ -1,0 +1,3 @@
+[submodule "ImpeccableCircuits"]
+	path = ImpeccableCircuits
+	url = https://github.com/emsec/ImpeccableCircuits.git
