@@ -3,8 +3,7 @@ A list of VHDL codes implementing cryptographic algorithms
 
 ## Motivation
 
-The motivation of creating this repository is to have a centralized point where all VHDL implementation of cryptographic algorithms can be fund. I do my best to keep it updated. If you find or have any VHDL implementation of cryptographic algorithm that are missing, don't hesitate 
-to contribute.
+The motivation of creating this repository is to have a centralized point where all VHDL implementation of cryptographic algorithms can be found. I do my best to keep it updated. If you find or have any VHDL implementation of cryptographic algorithm that are missing, don't hesitate to contribute. :smile:
 
 ## Contents
 1. [CRAFT](#craft)
