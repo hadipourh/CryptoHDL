@@ -10,7 +10,8 @@ to contribute.
 
 1. [CRAFT](#craft)
 2. [AES](#aes1)
-3. [Skinny64](#skinny1)
+3. [Skinny](#skinny1)
+4. [Skinny64](#skinny2)
 
 <a name="craft"></a>
 ## CRAFT
@@ -34,10 +35,10 @@ There are 6 folders for the VHDL source code of different implementations of CRA
 
 There are 3 folders for the VHDL source code of different implementations of AES. Apart from the unprotected implementation, all other designs MUST be synthesized by "keeping the hierarchy". Otherwise, no fault-detection and no protection against SCA is guaranteed.
 
-<a name="skinny64"></a>
-## Skinny64
+<a name="skinny1"></a>
+## Skinny
 
-*This repository includes the hardware designs of Skinny64 cipher*
+*This repository includes the hardware designs of Skinny64 and Skinny128 ciphers*
 
 * Developers: [P. Sasdrich](https://www.emsec.ruhr-uni-bochum.de/chair/_staff/Pascal_Sasdrich/)
 * [Official Repository](https://sites.google.com/site/skinnycipher/implementation)
@@ -46,11 +47,12 @@ There are 3 folders for the VHDL source code of different implementations of AES
 
 SKINNY is a family of very lightweight tweakable block ciphers.
 
-## Skinny128
+<a name="skinny2"></a>
+## Skinny64
 
-*This repository includes the hardware designs of Skinny64 cipher*
+*This repository includes the hardware designs of Skinny64 cipher with protection against SCA*
 
-* Developers: [P. Sasdrich](https://www.emsec.ruhr-uni-bochum.de/chair/_staff/Pascal_Sasdrich/)
-* [Official Repository](https://sites.google.com/site/skinnycipher/implementation)
-* Paper: [The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS](https://eprint.iacr.org/2016/660)
-* [Location within this repository]()
+* Developers: [Amir Moradi](https://github.com/amircrypto001)
+* [Official Repository](https://github.com/emsec/ImpeccableCircuits/tree/master/Skinny64)
+* Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
+
