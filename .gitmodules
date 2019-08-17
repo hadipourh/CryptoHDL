@@ -1,3 +1,6 @@
 [submodule "ImpeccableCircuits"]
 	path = ImpeccableCircuits
 	url = https://github.com/emsec/ImpeccableCircuits.git
+[submodule "present-vhdl"]
+	path = present-vhdl
+	url = https://github.com/huljar/present-vhdl
