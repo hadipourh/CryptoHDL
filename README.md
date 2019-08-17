@@ -13,6 +13,7 @@ The motivation of creating this repository is to have a centralized point where 
 5. [Present](#present1)
 6. [Prince](#prince1)
 7. [Klein](#klein1)
+8. [Gimli](#gimli)
 
 
 <a name="craft"></a>
@@ -40,7 +41,7 @@ There are 3 folders for the VHDL source code of different implementations of AES
 <a name="skinny1"></a>
 ## Skinny
 
-*This repository includes the hardware designs of Skinny64 and Skinny128 ciphers*
+*Hardware implementation of Skinny64 and Skinny128 ciphers*
 
 * Developers: [P. Sasdrich](https://www.emsec.ruhr-uni-bochum.de/chair/_staff/Pascal_Sasdrich/)
 * [Official Repository](https://sites.google.com/site/skinnycipher/implementation)
@@ -87,6 +88,18 @@ This is an implementation of the PRINCE lightweight block cipher as described in
 * [Official Repository](https://github.com/huljar/klein-vhdl)
 
 This is an implementation of the KLEIN lightweight block cipher as described in [this paper](https://link.springer.com/chapter/10.1007/978-3-642-25286-0_1). It encrypts individual blocks of 64 bit length with either a 64, 80, or 96 bit key.
+
+<a name="gimli"></a>
+## Gimli
+
+*Hardware implementation of Gimli*
+
+* Developers: Daniel J. Bernstein, Stefan Kölbl, Stefan Lucks, Pedro Maat Costa Massolino, Florian Mendel, Kashif Nawaz, Tobias Schneider, Peter Schwabe, François-Xavier Standaert, Yosuke Todo, Benoît Viguier.
+* [Official Website](http://gimli.cr.yp.to/index.html)
+* Paper: [Gimli: a cross-platform permutation.](https://gimli.cr.yp.to/gimli-20170627.pdf)
+* [Location within this repository]()
+
+Gimli is a 384-bit permutation designed to achieve high security with high performance across a broad range of platforms, including 64-bit Intel/AMD server CPUs, 64-bit and 32-bit ARM smartphone CPUs, 32-bit ARM microcontrollers, 8-bit AVR microcontrollers, FPGAs, ASICs without side-channel protection, and ASICs with side-channel protection.
 
 <a name="license"></a>
 # License
