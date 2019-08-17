@@ -7,13 +7,13 @@ The motivation of creating this repository is to have a centralized point where 
 to contribute.
 
 ## Contents
-
 1. [CRAFT](#craft)
 2. [AES](#aes1)
 3. [Skinny](#skinny1)
 4. [Skinny64](#skinny2)
 5. [Present](#present1)
 6. [Prince](#prince1)
+7. [Klein](#klein1)
 
 1. [License](#license)
 
@@ -79,6 +79,16 @@ This is an implementation of the PRESENT lightweight block cipher as described i
 * [Official Repository](https://github.com/huljar/prince-vhdl)
 
 This is an implementation of the PRINCE lightweight block cipher as described in [this paper](https://eprint.iacr.org/2012/529). It encrypts individual blocks of 64 bit length with a 128 bit key.
+
+<a name="klein1"></a>
+## Klein
+
+*A VHDL implementation of the Klein cipher*
+
+* Developer: [Julian Harttung](https://github.com/huljar)
+* [Official Repository](https://github.com/huljar/klein-vhdl)
+
+This is an implementation of the KLEIN lightweight block cipher as described in [this paper](https://link.springer.com/chapter/10.1007/978-3-642-25286-0_1). It encrypts individual blocks of 64 bit length with either a 64, 80, or 96 bit key.
 
 <a name="license"></a>
 # License
