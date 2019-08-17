@@ -13,6 +13,7 @@ to contribute.
 3. [Skinny](#skinny1)
 4. [Skinny64](#skinny2)
 5. [Present](#present1)
+6. [Prince](#prince1)
 
 1. [License](#license)
 
@@ -62,7 +63,7 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 <a name="present1"></a>
 ## Present
 
-*A VHDL implementation of the PRESENT lightweight block*
+*A VHDL implementation of the PRESENT cipher*
 
 * Developer: [Julian Harttung](https://github.com/huljar)
 * [Official Repository](https://github.com/huljar/present-vhdl)
@@ -72,7 +73,7 @@ This is an implementation of the PRESENT lightweight block cipher as described i
 <a name="prince1"></a>
 ## Prince
 
-*A VHDL implementation of the PRESENT lightweight block*
+*A VHDL implementation of the Prince cipher*
 
 * Developer: [Julian Harttung](https://github.com/huljar)
 * [Official Repository](https://github.com/huljar/prince-vhdl)
