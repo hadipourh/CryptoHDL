@@ -4,3 +4,6 @@
 [submodule "present-vhdl"]
 	path = present-vhdl
 	url = https://github.com/huljar/present-vhdl
+[submodule "prince-vhdl"]
+	path = prince-vhdl
+	url = https://github.com/huljar/prince-vhdl
