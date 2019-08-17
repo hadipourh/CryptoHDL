@@ -1,0 +1,329 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : Skinny_0_2
+Version: E-2010.12-SP2
+Date   : Fri Jun 21 12:00:21 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /usr/flow/designkits/synthesis/ibm_0.13um/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                           83
+Number of nets:                           117
+Number of cells:                            3
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:       1599.840019
+Noncombinational area:    8369.280067
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          9969.120086
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------------------
+Skinny_0_2                        9969.1328    100.0     0.0000     0.0000  0.0000  Skinny_0_2
+CL                                 475.2000      4.8   129.6000   322.5600  0.0000  ControlLogic_0_2
+CL/clk_gate_STATE_reg               23.0400      0.2     0.0000    23.0400  0.0000  SNPS_CLOCK_GATE_HIGH_ControlLogic_0_2
+KE                                6631.2109     66.5   548.6398     0.0000  0.0000  KeyExpansion_0_2
+KE/P1                                0.0000      0.0     0.0000     0.0000  0.0000  Permutation_0_0
+KE/P2                                0.0000      0.0     0.0000     0.0000  0.0000  Permutation_0_2
+KE/P2_0                              0.0000      0.0     0.0000     0.0000  0.0000  Permutation_0_1
+KE/TK10                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_9
+KE/TK10/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_144
+KE/TK10/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_143
+KE/TK10/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_134
+KE/TK10/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_133
+KE/TK10/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_132
+KE/TK10/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_131
+KE/TK10/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_130
+KE/TK10/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_129
+KE/TK10/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_142
+KE/TK10/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_141
+KE/TK10/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_140
+KE/TK10/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_139
+KE/TK10/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_138
+KE/TK10/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_137
+KE/TK10/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_136
+KE/TK10/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_135
+KE/TK11                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_10
+KE/TK11/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_160
+KE/TK11/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_159
+KE/TK11/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_150
+KE/TK11/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_149
+KE/TK11/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_148
+KE/TK11/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_147
+KE/TK11/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_146
+KE/TK11/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_145
+KE/TK11/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_158
+KE/TK11/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_157
+KE/TK11/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_156
+KE/TK11/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_155
+KE/TK11/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_154
+KE/TK11/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_153
+KE/TK11/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_152
+KE/TK11/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_151
+KE/TK12                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_11
+KE/TK12/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_176
+KE/TK12/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_175
+KE/TK12/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_166
+KE/TK12/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_165
+KE/TK12/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_164
+KE/TK12/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_163
+KE/TK12/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_162
+KE/TK12/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_161
+KE/TK12/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_174
+KE/TK12/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_173
+KE/TK12/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_172
+KE/TK12/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_171
+KE/TK12/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_170
+KE/TK12/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_169
+KE/TK12/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_168
+KE/TK12/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_167
+KE/TK13                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_0
+KE/TK13/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_192
+KE/TK13/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_191
+KE/TK13/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_182
+KE/TK13/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_181
+KE/TK13/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_180
+KE/TK13/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_179
+KE/TK13/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_178
+KE/TK13/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_177
+KE/TK13/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_190
+KE/TK13/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_189
+KE/TK13/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_188
+KE/TK13/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_187
+KE/TK13/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_186
+KE/TK13/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_185
+KE/TK13/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_184
+KE/TK13/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_183
+KE/TK20                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_5
+KE/TK20/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_80
+KE/TK20/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_79
+KE/TK20/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_70
+KE/TK20/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_69
+KE/TK20/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_68
+KE/TK20/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_67
+KE/TK20/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_66
+KE/TK20/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_65
+KE/TK20/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_78
+KE/TK20/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_77
+KE/TK20/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_76
+KE/TK20/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_75
+KE/TK20/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_74
+KE/TK20/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_73
+KE/TK20/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_72
+KE/TK20/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_71
+KE/TK21                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_6
+KE/TK21/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_96
+KE/TK21/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_95
+KE/TK21/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_86
+KE/TK21/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_85
+KE/TK21/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_84
+KE/TK21/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_83
+KE/TK21/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_82
+KE/TK21/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_81
+KE/TK21/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_94
+KE/TK21/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_93
+KE/TK21/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_92
+KE/TK21/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_91
+KE/TK21/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_90
+KE/TK21/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_89
+KE/TK21/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_88
+KE/TK21/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_87
+KE/TK22                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_7
+KE/TK22/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_112
+KE/TK22/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_111
+KE/TK22/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_102
+KE/TK22/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_101
+KE/TK22/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_100
+KE/TK22/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_99
+KE/TK22/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_98
+KE/TK22/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_97
+KE/TK22/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_110
+KE/TK22/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_109
+KE/TK22/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_108
+KE/TK22/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_107
+KE/TK22/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_106
+KE/TK22/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_105
+KE/TK22/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_104
+KE/TK22/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_103
+KE/TK23                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_8
+KE/TK23/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_128
+KE/TK23/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_127
+KE/TK23/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_118
+KE/TK23/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_117
+KE/TK23/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_116
+KE/TK23/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_115
+KE/TK23/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_114
+KE/TK23/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_113
+KE/TK23/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_126
+KE/TK23/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_125
+KE/TK23/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_124
+KE/TK23/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_123
+KE/TK23/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_122
+KE/TK23/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_121
+KE/TK23/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_120
+KE/TK23/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_119
+KE/TK30                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_1
+KE/TK30/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_16
+KE/TK30/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_15
+KE/TK30/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_6
+KE/TK30/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_5
+KE/TK30/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_4
+KE/TK30/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_3
+KE/TK30/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_2
+KE/TK30/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_1
+KE/TK30/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_14
+KE/TK30/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_13
+KE/TK30/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_12
+KE/TK30/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_11
+KE/TK30/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_10
+KE/TK30/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_9
+KE/TK30/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_8
+KE/TK30/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_7
+KE/TK31                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_2
+KE/TK31/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_32
+KE/TK31/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_31
+KE/TK31/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_22
+KE/TK31/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_21
+KE/TK31/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_20
+KE/TK31/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_19
+KE/TK31/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_18
+KE/TK31/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_17
+KE/TK31/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_30
+KE/TK31/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_29
+KE/TK31/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_28
+KE/TK31/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_27
+KE/TK31/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_26
+KE/TK31/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_25
+KE/TK31/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_24
+KE/TK31/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_23
+KE/TK32                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_3
+KE/TK32/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_48
+KE/TK32/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_47
+KE/TK32/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_38
+KE/TK32/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_37
+KE/TK32/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_36
+KE/TK32/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_35
+KE/TK32/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_34
+KE/TK32/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_33
+KE/TK32/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_46
+KE/TK32/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_45
+KE/TK32/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_44
+KE/TK32/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_43
+KE/TK32/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_42
+KE/TK32/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_41
+KE/TK32/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_40
+KE/TK32/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_39
+KE/TK33                            506.8799      5.1     0.0000     0.0000  0.0000  ScanFF_SIZE16_4
+KE/TK33/SFF_0                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_64
+KE/TK33/SFF_1                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_63
+KE/TK33/SFF_10                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_54
+KE/TK33/SFF_11                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_53
+KE/TK33/SFF_12                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_52
+KE/TK33/SFF_13                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_51
+KE/TK33/SFF_14                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_50
+KE/TK33/SFF_15                      31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_49
+KE/TK33/SFF_2                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_62
+KE/TK33/SFF_3                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_61
+KE/TK33/SFF_4                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_60
+KE/TK33/SFF_5                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_59
+KE/TK33/SFF_6                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_58
+KE/TK33/SFF_7                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_57
+KE/TK33/SFF_8                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_56
+KE/TK33/SFF_9                       31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_55
+RF                                2862.7197     28.7   172.8000     0.0000  0.0000  RoundFunction_0_2
+RF/C00                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_1
+RF/C00/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_196
+RF/C00/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_195
+RF/C00/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_194
+RF/C00/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_193
+RF/C01                              97.9200      1.0     0.0000    97.9200  0.0000  DataFF_SIZE4_1
+RF/C02                              97.9200      1.0     0.0000    97.9200  0.0000  DataFF_SIZE4_2
+RF/C03                              97.9200      1.0     0.0000    97.9200  0.0000  DataFF_SIZE4_0
+RF/C04                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_2
+RF/C04/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_200
+RF/C04/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_199
+RF/C04/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_198
+RF/C04/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_197
+RF/C05                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_3
+RF/C05/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_204
+RF/C05/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_203
+RF/C05/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_202
+RF/C05/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_201
+RF/C06                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_4
+RF/C06/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_208
+RF/C06/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_207
+RF/C06/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_206
+RF/C06/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_205
+RF/C07                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_5
+RF/C07/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_212
+RF/C07/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_211
+RF/C07/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_210
+RF/C07/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_209
+RF/C08                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_6
+RF/C08/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_216
+RF/C08/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_215
+RF/C08/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_214
+RF/C08/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_213
+RF/C09                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_7
+RF/C09/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_220
+RF/C09/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_219
+RF/C09/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_218
+RF/C09/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_217
+RF/C10                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_8
+RF/C10/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_224
+RF/C10/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_223
+RF/C10/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_222
+RF/C10/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_221
+RF/C11                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_9
+RF/C11/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_228
+RF/C11/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_227
+RF/C11/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_226
+RF/C11/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_225
+RF/C12                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_10
+RF/C12/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_232
+RF/C12/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_231
+RF/C12/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_230
+RF/C12/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_229
+RF/C13                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_11
+RF/C13/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_236
+RF/C13/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_235
+RF/C13/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_234
+RF/C13/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_233
+RF/C14                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_12
+RF/C14/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_240
+RF/C14/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_239
+RF/C14/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_238
+RF/C14/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_237
+RF/C15                             126.7200      1.3     0.0000     0.0000  0.0000  ScanFF_SIZE4_0
+RF/C15/SFF_0                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_0
+RF/C15/SFF_1                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_243
+RF/C15/SFF_2                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_242
+RF/C15/SFF_3                        31.6800      0.3     0.0000    31.6800  0.0000  dflipfloplw_241
+RF/KA                              357.1200      3.6   357.1200     0.0000  0.0000  AddConstKey_0_2
+RF/MC                              138.2400      1.4   138.2400     0.0000  0.0000  MixColumns_0
+RF/S0                               63.3600      0.6    63.3600     0.0000  0.0000  SBox_0_1
+RF/S1                               63.3600      0.6    63.3600     0.0000  0.0000  SBox_0_2
+RF/S2                               63.3600      0.6    63.3600     0.0000  0.0000  SBox_0_3
+RF/S3                               63.3600      0.6    63.3600     0.0000  0.0000  SBox_0_0
+RF/SR                                0.0000      0.0     0.0000     0.0000  0.0000  ShiftRows_0
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------------------
+Total                                                 1599.8397  8369.2959  0.0000
+
+1

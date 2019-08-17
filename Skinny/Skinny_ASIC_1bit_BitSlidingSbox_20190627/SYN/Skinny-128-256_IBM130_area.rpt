@@ -1,0 +1,195 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : Skinny_1_1
+Version: E-2010.12-SP2
+Date   : Fri Jun 21 10:01:53 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /usr/flow/designkits/synthesis/ibm_0.13um/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                            7
+Number of nets:                            16
+Number of cells:                            3
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:        721.440013
+Noncombinational area:    10182.239857
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          10903.679870
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area           Local cell area
+                                  -------------------  ---------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-    Noncombi-   Black
+                                  Total       Total    national  national    boxes   Design
+--------------------------------  ----------  -------  --------  ----------  ------  ---------------------------------------
+Skinny_1_1                        10903.7080    100.0    0.0000      0.0000  0.0000  Skinny_1_1
+CL                                  789.1200      7.2  365.7601    377.2800  0.0000  ControlLogic_1_1
+CL/clk_gate_COUNT_OP_reg             23.0400      0.2    0.0000     23.0400  0.0000  SNPS_CLOCK_GATE_HIGH_ControlLogic_1_1_0
+CL/clk_gate_STATE_reg                23.0400      0.2    0.0000     23.0400  0.0000  SNPS_CLOCK_GATE_HIGH_ControlLogic_1_1_1
+KE                                 6557.7573     60.1   50.4000     34.5600  0.0000  KeyExpansion_1_1
+KE/C00                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_9
+KE/C00/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_9
+KE/C00/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_24
+KE/C00_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_1
+KE/C00_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_1
+KE/C00_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_16
+KE/C01                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_8
+KE/C01/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_8
+KE/C01_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_1
+KE/C01_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_1
+KE/C02                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_9
+KE/C02/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_9
+KE/C02_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_2
+KE/C02_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_2
+KE/C03                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_10
+KE/C03/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_10
+KE/C03_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_3
+KE/C03_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_3
+KE/C04                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_11
+KE/C04/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_11
+KE/C04_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_4
+KE/C04_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_4
+KE/C05                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_12
+KE/C05/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_12
+KE/C05_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_5
+KE/C05_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_5
+KE/C06                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_13
+KE/C06/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_13
+KE/C06_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_6
+KE/C06_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_6
+KE/C07                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_14
+KE/C07/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_14
+KE/C07_0                            195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_7
+KE/C07_0/DFF                        195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_7
+KE/C08                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_10
+KE/C08/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_10
+KE/C08/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_25
+KE/C08_0                            279.3600      2.6   25.9200      0.0000  0.0000  CellT2_1
+KE/C08_0/SFF                        253.4400      2.3    0.0000      0.0000  0.0000  ScanFF_SIZE8
+KE/C08_0/SFF/SFF_0                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_8
+KE/C08_0/SFF/SFF_1                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_7
+KE/C08_0/SFF/SFF_2                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_6
+KE/C08_0/SFF/SFF_3                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_5
+KE/C08_0/SFF/SFF_4                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_4
+KE/C08_0/SFF/SFF_5                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_3
+KE/C08_0/SFF/SFF_6                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_2
+KE/C08_0/SFF/SFF_7                   31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_1
+KE/C09                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_11
+KE/C09/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_11
+KE/C09/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_26
+KE/C09_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_2
+KE/C09_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_2
+KE/C09_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_17
+KE/C10                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_12
+KE/C10/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_12
+KE/C10/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_27
+KE/C10_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_3
+KE/C10_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_3
+KE/C10_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_18
+KE/C11                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_13
+KE/C11/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_13
+KE/C11/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_28
+KE/C11_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_4
+KE/C11_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_4
+KE/C11_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_19
+KE/C12                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_14
+KE/C12/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_14
+KE/C12/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_29
+KE/C12_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_5
+KE/C12_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_5
+KE/C12_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_20
+KE/C13                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_15
+KE/C13/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_15
+KE/C13/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_30
+KE/C13_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_6
+KE/C13_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_6
+KE/C13_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_21
+KE/C14                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_16
+KE/C14/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_16
+KE/C14/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_31
+KE/C14_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_7
+KE/C14_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_7
+KE/C14_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_22
+KE/C15                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_17
+KE/C15/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_17
+KE/C15/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_32
+KE/C15_0                            203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_8
+KE/C15_0/DFF                        171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_8
+KE/C15_0/SFF                         31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_23
+KE/P1                                 0.0000      0.0    0.0000      0.0000  0.0000  Permutation_1_0
+KE/P2                                 0.0000      0.0    0.0000      0.0000  0.0000  Permutation_1_1
+RF                                 3556.7966     32.6   69.1200      0.0000  0.0000  RoundFunction_1_1
+RF/C00                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_18
+RF/C00/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_18
+RF/C00/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_33
+RF/C01                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_15
+RF/C01/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_15
+RF/C02                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_16
+RF/C02/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_16
+RF/C03                              195.8400      1.8    0.0000      0.0000  0.0000  CellDO_SIZE8_0
+RF/C03/DFF                          195.8400      1.8    0.0000    195.8400  0.0000  DataFF_SIZE8_0
+RF/C04                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_19
+RF/C04/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_19
+RF/C04/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_34
+RF/C05                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_20
+RF/C05/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_20
+RF/C05/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_35
+RF/C06                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_21
+RF/C06/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_21
+RF/C06/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_36
+RF/C07                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_22
+RF/C07/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_22
+RF/C07/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_37
+RF/C08                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_23
+RF/C08/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_23
+RF/C08/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_38
+RF/C09                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_24
+RF/C09/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_24
+RF/C09/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_39
+RF/C10                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_25
+RF/C10/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_25
+RF/C10/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_40
+RF/C11                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_26
+RF/C11/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_26
+RF/C11/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_41
+RF/C12                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_27
+RF/C12/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_27
+RF/C12/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_42
+RF/C13                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_28
+RF/C13/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_28
+RF/C13/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_43
+RF/C14                              203.0400      1.9    0.0000      0.0000  0.0000  CellSD_SIZE8_0
+RF/C14/DFF                          171.3600      1.6    0.0000    171.3600  0.0000  DataFF_SIZE7_0
+RF/C14/SFF                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_44
+RF/C15                              394.5602      3.6   14.4000      0.0000  0.0000  CellSB_1
+RF/C15/S                            126.7200      1.2  126.7200      0.0000  0.0000  SBox_1
+RF/C15/SF0                           31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_0
+RF/C15/SFF                          221.7600      2.0    0.0000      0.0000  0.0000  ScanFF_SIZE7
+RF/C15/SFF/SFF_0                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_15
+RF/C15/SFF/SFF_1                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_14
+RF/C15/SFF/SFF_2                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_13
+RF/C15/SFF/SFF_3                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_12
+RF/C15/SFF/SFF_4                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_11
+RF/C15/SFF/SFF_5                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_10
+RF/C15/SFF/SFF_6                     31.6800      0.3    0.0000     31.6800  0.0000  dflipfloplw_9
+RF/KA                                34.5600      0.3   34.5600      0.0000  0.0000  AddConstKey_1_1
+RF/MC                                34.5600      0.3   34.5600      0.0000  0.0000  MixColumns_1
+RF/SR                                 0.0000      0.0    0.0000      0.0000  0.0000  ShiftRows_1
+--------------------------------  ----------  -------  --------  ----------  ------  ---------------------------------------
+Total                                                  721.4401  10182.2383  0.0000
+
+1

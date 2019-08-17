@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : Skinny_1_0
+Version: E-2010.12-SP2
+Date   : Fri Jun 21 12:12:33 2019
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: RF/RS/SFF_123/SFFInst
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: RF/RS/SFF_120/SFFInst
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RF/RS/SFF_123/SFFInst/CK (SDFFQX1TS)                    0.00       0.00 r
+  RF/RS/SFF_123/SFFInst/Q (SDFFQX1TS)                     0.76       0.76 f
+  RF/RS/SFF_123/Q (dflipfloplw_133)                       0.00       0.76 f
+  RF/RS/Q[123] (ScanFF_SIZE128_0)                         0.00       0.76 f
+  RF/S_15/X[3] (SBox_1_1)                                 0.00       0.76 f
+  RF/S_15/U10/Y (OAI21X1TS)                               0.22       0.98 r
+  RF/S_15/U9/Y (OAI31X1TS)                                0.24       1.22 f
+  RF/S_15/U5/Y (OAI21XLTS)                                0.32       1.54 r
+  RF/S_15/U11/Y (OAI31X1TS)                               0.28       1.82 f
+  RF/S_15/U15/Y (OAI21XLTS)                               0.32       2.13 r
+  RF/S_15/U2/Y (OAI31X1TS)                                0.24       2.37 f
+  RF/S_15/U14/Y (OAI21XLTS)                               0.32       2.69 r
+  RF/S_15/U1/Y (OAI31X1TS)                                0.20       2.89 f
+  RF/S_15/Y[0] (SBox_1_1)                                 0.00       2.89 f
+  RF/KA/DATA_IN[120] (AddConstKey_1_0)                    0.00       2.89 f
+  RF/KA/U31/Y (XOR2X1TS)                                  0.25       3.13 r
+  RF/KA/U30/Y (XOR2X1TS)                                  0.31       3.45 r
+  RF/KA/DATA_OUT[120] (AddConstKey_1_0)                   0.00       3.45 r
+  RF/SR/X[120] (ShiftRows_1)                              0.00       3.45 r
+  RF/SR/Y[120] (ShiftRows_1)                              0.00       3.45 r
+  RF/MC/X[120] (MixColumns_1)                             0.00       3.45 r
+  RF/MC/U36/Y (XOR2X1TS)                                  0.32       3.77 r
+  RF/MC/U66/Y (XOR2X1TS)                                  0.29       4.06 f
+  RF/MC/Y[120] (MixColumns_1)                             0.00       4.06 f
+  RF/RS/D[120] (ScanFF_SIZE128_0)                         0.00       4.06 f
+  RF/RS/SFF_120/D0 (dflipfloplw_136)                      0.00       4.06 f
+  RF/RS/SFF_120/SFFInst/D (SDFFQX1TS)                     0.00       4.06 f
+  data arrival time                                                  4.06
+
+  clock CLK (rise edge)                               10000.00   10000.00
+  clock network delay (ideal)                             0.00   10000.00
+  RF/RS/SFF_120/SFFInst/CK (SDFFQX1TS)                    0.00   10000.00 r
+  library setup time                                     -0.75    9999.25
+  data required time                                              9999.25
+  --------------------------------------------------------------------------
+  data required time                                              9999.25
+  data arrival time                                                 -4.06
+  --------------------------------------------------------------------------
+  slack (MET)                                                     9995.19
+
+
+1

@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : Skinny_0_1
+Version: E-2010.12-SP2
+Date   : Thu Jun 20 21:23:25 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: RF_22/RS/Q_reg[62]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: RF_23/RS/Q_reg[61]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RF_22/RS/Q_reg[62]/CK (DFFQX1TS)                        0.00 #     0.00 r
+  RF_22/RS/Q_reg[62]/Q (DFFQX1TS)                         0.77       0.77 f
+  RF_22/RS/Q[62] (DataFF_SIZE64_14)                       0.00       0.77 f
+  RF_22/ROUND_OUT[62] (RoundFunction_0_1_14)              0.00       0.77 f
+  RF_23/ROUND_IN[62] (RoundFunction_0_1_13)               0.00       0.77 f
+  RF_23/S_15/X[2] (SBox_0_193)                            0.00       0.77 f
+  RF_23/S_15/U7/Y (OAI21X1TS)                             0.20       0.97 r
+  RF_23/S_15/U6/Y (OAI31X1TS)                             0.24       1.21 f
+  RF_23/S_15/U8/Y (OAI21XLTS)                             0.34       1.55 r
+  RF_23/S_15/U1/Y (OAI31X1TS)                             0.20       1.75 f
+  RF_23/S_15/Y[1] (SBox_0_193)                            0.00       1.75 f
+  RF_23/KA/DATA_IN[61] (AddConstKey_0_1_13)               0.00       1.75 f
+  RF_23/KA/U34/Y (XOR2X1TS)                               0.25       2.00 r
+  RF_23/KA/U33/Y (XOR2X1TS)                               0.31       2.31 r
+  RF_23/KA/DATA_OUT[61] (AddConstKey_0_1_13)              0.00       2.31 r
+  RF_23/SR/X[61] (ShiftRows_0_13)                         0.00       2.31 r
+  RF_23/SR/Y[61] (ShiftRows_0_13)                         0.00       2.31 r
+  RF_23/MC/X[61] (MixColumns_0_13)                        0.00       2.31 r
+  RF_23/MC/U23/Y (XOR2X1TS)                               0.32       2.63 r
+  RF_23/MC/U13/Y (XOR2X1TS)                               0.29       2.92 f
+  RF_23/MC/Y[61] (MixColumns_0_13)                        0.00       2.92 f
+  RF_23/RS/D[61] (DataFF_SIZE64_13)                       0.00       2.92 f
+  RF_23/RS/Q_reg[61]/D (DFFQX1TS)                         0.00       2.92 f
+  data arrival time                                                  2.92
+
+  clock CLK (rise edge)                               10000.00   10000.00
+  clock network delay (ideal)                             0.00   10000.00
+  RF_23/RS/Q_reg[61]/CK (DFFQX1TS)                        0.00   10000.00 r
+  library setup time                                     -0.35    9999.65
+  data required time                                              9999.65
+  --------------------------------------------------------------------------
+  data required time                                              9999.65
+  data arrival time                                                 -2.92
+  --------------------------------------------------------------------------
+  slack (MET)                                                     9996.73
+
+
+1

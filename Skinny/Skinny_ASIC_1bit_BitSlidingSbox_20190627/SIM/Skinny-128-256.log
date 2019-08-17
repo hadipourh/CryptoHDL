@@ -1,0 +1,9 @@
+source xsim.dir/Skinny_behav/xsim_script.tcl
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+run -all
+Message: ---------- PASSED ----------
+Time: 83215 ns  Iteration: 0  Process: /TB_Skinny/STIM_PROCESS  
+$finish called at time : 83215 ns : 
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Jun 27 11:42:28 2019...

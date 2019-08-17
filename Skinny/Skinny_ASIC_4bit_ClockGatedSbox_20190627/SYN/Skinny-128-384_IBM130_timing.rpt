@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : Skinny_1_2
+Version: E-2010.12-SP2
+Date   : Fri Jun 21 11:24:50 2019
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+  Startpoint: CL/COUNT_OP_reg[0]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: KE/CLK_GATE_H_reg
+            (negative level-sensitive latch clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  CL/COUNT_OP_reg[0]/CK (DFFQX1TS)         0.00       0.00 r
+  CL/COUNT_OP_reg[0]/Q (DFFQX1TS)          0.74       0.74 f
+  CL/U24/Y (NOR2XLTS)                      0.55       1.28 r
+  CL/U38/Y (INVX2TS)                       0.29       1.57 f
+  CL/U23/Y (NOR2X1TS)                      0.19       1.77 r
+  CL/KEY_CTL[1] (ControlLogic_1_2)         0.00       1.77 r
+  KE/KEY_CTL[1] (KeyExpansion_1_2)         0.00       1.77 r
+  KE/U6/Y (CLKBUFX2TS)                     0.56       2.33 r
+  KE/U11/Y (OR2X2TS)                       0.38       2.71 r
+  KE/CLK_GATE_H_reg/D (TLATNX1TS)          0.00       2.71 r
+  data arrival time                                   2.71
+
+  clock CLK (fall edge)                 5000.00    5000.00
+  clock network delay (ideal)              0.00    5000.00
+  KE/CLK_GATE_H_reg/GN (TLATNX1TS)         0.00    5000.00 f
+  time borrowed from endpoint              0.00    5000.00
+  data required time                               5000.00
+  -----------------------------------------------------------
+  data required time                               5000.00
+  data arrival time                                  -2.71
+  -----------------------------------------------------------
+  slack (MET)                                      4997.29
+
+  Time Borrowing Information
+  -----------------------------------------------
+  CLK pulse width                       5000.00   
+  library setup time                      -0.14   
+  -----------------------------------------------
+  max time borrow                       4999.86   
+  actual time borrow                       0.00   
+  -----------------------------------------------
+
+
+1

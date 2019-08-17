@@ -1,0 +1,6 @@
+Skinny-64-64: 860 GE (3.13 ns / 319.49 MHz)
+Skinny-64-128: 1199 GE (3.23 ns / 309.60 MHz)
+Skinny-64-192: 1537 GE (2.23 ns / 448.43 MHz)
+Skinny-128-128: 1593 GE (2.79 ns / 358.42 MHz)
+Skinny-128-256: 2271 GE (2.82 ns / 354.61 MHz)
+Skinny-128-384: 2948 GE (1.99 ns / 502.51 MHz)
