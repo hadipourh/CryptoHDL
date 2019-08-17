@@ -60,7 +60,4 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 
 <a name="license"></a>
 # License
-
-[![CC0](https://en.wikipedia.org/wiki/GNU_General_Public_License#/media/File:GPLv3_Logo.svg)]
-(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-
+To do
