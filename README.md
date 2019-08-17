@@ -13,6 +13,8 @@ to contribute.
 3. [Skinny](#skinny1)
 4. [Skinny64](#skinny2)
 
+1. [License](#license)
+
 <a name="craft"></a>
 ## CRAFT
 
@@ -55,4 +57,10 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 * Developers: [Amir Moradi](https://github.com/amircrypto001)
 * [Official Repository](https://github.com/emsec/ImpeccableCircuits/tree/master/Skinny64)
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
+
+<a name="license"></a>
+# License
+
+[![CC0](https://en.wikipedia.org/wiki/GNU_General_Public_License#/media/File:GPLv3_Logo.svg)]
+(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
