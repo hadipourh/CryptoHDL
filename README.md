@@ -12,6 +12,7 @@ to contribute.
 2. [AES](#aes1)
 3. [Skinny](#skinny1)
 4. [Skinny64](#skinny2)
+5. [Present](#present1)
 
 1. [License](#license)
 
@@ -57,6 +58,26 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 * Developers: [Amir Moradi](https://github.com/amircrypto001)
 * [Official Repository](https://github.com/emsec/ImpeccableCircuits/tree/master/Skinny64)
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
+
+<a name="present1"></a>
+## Present
+
+*A VHDL implementation of the PRESENT lightweight block*
+
+* Developer: [Julian Harttung](https://github.com/huljar)
+* [Official Repository](https://github.com/huljar/present-vhdl)
+
+This is an implementation of the PRESENT lightweight block cipher as described in [this paper](https://link.springer.com/chapter/10.1007/978-3-540-74735-2_31). It encrypts individual blocks of 64 bit length with an 80 or 128 bit key. The desired key length can be set via the generic k (either K_80 or K_128).
+
+<a name="prince1"></a>
+## Prince
+
+*A VHDL implementation of the PRESENT lightweight block*
+
+* Developer: [Julian Harttung](https://github.com/huljar)
+* [Official Repository](https://github.com/huljar/prince-vhdl)
+
+This is an implementation of the PRINCE lightweight block cipher as described in [this paper](https://eprint.iacr.org/2012/529). It encrypts individual blocks of 64 bit length with a 128 bit key.
 
 <a name="license"></a>
 # License
