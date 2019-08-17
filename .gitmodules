@@ -7,3 +7,6 @@
 [submodule "prince-vhdl"]
 	path = prince-vhdl
 	url = https://github.com/huljar/prince-vhdl
+[submodule "klein-vhdl"]
+	path = klein-vhdl
+	url = https://github.com/huljar/klein-vhdl
