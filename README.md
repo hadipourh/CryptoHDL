@@ -39,7 +39,7 @@ There are 3 folders for the VHDL source code of different implementations of AES
 
 *This repository includes the hardware designs of Skinny64 cipher*
 
-* Developers: [Unknown]
+* Developers: [P. Sasdrich](https://www.emsec.ruhr-uni-bochum.de/chair/_staff/Pascal_Sasdrich/)
 * [Official Repository](https://sites.google.com/site/skinnycipher/implementation)
 * Paper: [The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS](https://eprint.iacr.org/2016/660)
 * [Location within this repository]()
@@ -50,7 +50,7 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 
 *This repository includes the hardware designs of Skinny64 cipher*
 
-* Developers: [Unknown]
+* Developers: [P. Sasdrich](https://www.emsec.ruhr-uni-bochum.de/chair/_staff/Pascal_Sasdrich/)
 * [Official Repository](https://sites.google.com/site/skinnycipher/implementation)
 * Paper: [The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS](https://eprint.iacr.org/2016/660)
 * [Location within this repository]()
