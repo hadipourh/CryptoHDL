@@ -44,7 +44,7 @@ There are 3 folders for the VHDL source code of different implementations of AES
 *Hardware implementation of Skinny64 and Skinny128 ciphers*
 
 * Developers: [P. Sasdrich](https://www.emsec.ruhr-uni-bochum.de/chair/_staff/Pascal_Sasdrich/)
-* [Official Repository](https://sites.google.com/site/skinnycipher/implementation)
+* [Official Website](https://sites.google.com/site/skinnycipher/implementation)
 * Paper: [The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS](https://eprint.iacr.org/2016/660)
 * [Location within this repository](https://github.com/hadipourh/CryptoHDL/tree/master/Skinny)
 
@@ -97,7 +97,7 @@ This is an implementation of the KLEIN lightweight block cipher as described in 
 * Developers: Daniel J. Bernstein, Stefan Kölbl, Stefan Lucks, Pedro Maat Costa Massolino, Florian Mendel, Kashif Nawaz, Tobias Schneider, Peter Schwabe, François-Xavier Standaert, Yosuke Todo, Benoît Viguier.
 * [Official Website](http://gimli.cr.yp.to/index.html)
 * Paper: [Gimli: a cross-platform permutation.](https://gimli.cr.yp.to/gimli-20170627.pdf)
-* [Location within this repository]()
+* [Location within this repository](https://github.com/hadipourh/CryptoHDL/tree/master/gimli)
 
 Gimli is a 384-bit permutation designed to achieve high security with high performance across a broad range of platforms, including 64-bit Intel/AMD server CPUs, 64-bit and 32-bit ARM smartphone CPUs, 32-bit ARM microcontrollers, 8-bit AVR microcontrollers, FPGAs, ASICs without side-channel protection, and ASICs with side-channel protection.
 
