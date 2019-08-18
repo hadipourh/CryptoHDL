@@ -23,7 +23,7 @@ The motivation of creating this repository is to have a centralized point where 
 
 * Developers: [Amir Moradi](https://github.com/amircrypto001)
 * [Official Repository](https://github.com/emsec/ImpeccableCircuits/tree/master/CRAFT)
-* Paper: [Lightweight Tweakable Block Cipher with Efficient Protection Against DFA Attacks. IACR Trans. Symmetric Cryptol. 2019]((https://eprint.iacr.org/2019/210)
+* Paper: [Lightweight Tweakable Block Cipher with Efficient Protection Against DFA Attacks. IACR Trans. Symmetric Cryptol. 2019](https://eprint.iacr.org/2019/210)
 
 There are 6 folders for the VHDL source code of different implementations of CRAFT. Apart from the unprotected implementation, all other designs MUST be synthesized by "keeping the hierarchy". Otherwise, no fault-detection and no protection against SCA is guaranteed. (https://sites.google.com/view/craftcipher/implementation).
 
