@@ -14,6 +14,7 @@ The motivation of creating this repository is to have a centralized point where 
 6. [Prince](#prince1)
 7. [Klein](#klein1)
 8. [Gimli](#gimli)
+9. [Ascon](#ascon)
 
 
 <a name="craft"></a>
@@ -100,6 +101,25 @@ This is an implementation of the KLEIN lightweight block cipher as described in 
 * [Location within this repository](https://github.com/hadipourh/CryptoHDL/tree/master/gimli)
 
 Gimli is a 384-bit permutation designed to achieve high security with high performance across a broad range of platforms, including 64-bit Intel/AMD server CPUs, 64-bit and 32-bit ARM smartphone CPUs, 32-bit ARM microcontrollers, 8-bit AVR microcontrollers, FPGAs, ASICs without side-channel protection, and ASICs with side-channel protection.
+
+<a name="ascon"></a>
+## Ascon
+
+*Energy Efficient Hardware Implementations of Ascon*
+
+* Developers: [Michael Fivez](https://github.com/michaelfivez)
+* [Official Repository](https://github.com/michaelfivez/ascon_hardware_implementation)
+* Paper: [Energy Efficient Hardware Implementations of CAESAR Submissions-2016](https://www.esat.kuleuven.be/cosic/publications/thesis-279.pdf)
+
+Energy-efficient implementations of Ascon-128 and Ascon-128a by Michael Fivez, including a comparison with Joltik and MORUS. This repository contains several implementations of the Ascon hardware cipher.
+
+*Side-channel protected hardware implementations of Ascon*
+
+* Developers: [Hannes Groß](https://github.com/hgrosz)
+* [Official Repository](https://github.com/hgrosz/ascon_dom)
+* Master Thesis: [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://eprint.iacr.org/2016/486)
+
+Side-channel protected hardware implementations of Ascon-128 and Ascon-128a by Hannes Groß using domain-oriented masking.
 
 <a name="license"></a>
 # License
