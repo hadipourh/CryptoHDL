@@ -109,7 +109,7 @@ Gimli is a 384-bit permutation designed to achieve high security with high perfo
 
 * Developers: [Michael Fivez](https://github.com/michaelfivez)
 * [Official Repository](https://github.com/michaelfivez/ascon_hardware_implementation)
-* Paper: [Energy Efficient Hardware Implementations of CAESAR Submissions-2016](https://www.esat.kuleuven.be/cosic/publications/thesis-279.pdf)
+* Master Thesis: [Energy Efficient Hardware Implementations of CAESAR Submissions-2016](https://www.esat.kuleuven.be/cosic/publications/thesis-279.pdf)
 
 Energy-efficient implementations of Ascon-128 and Ascon-128a by Michael Fivez, including a comparison with Joltik and MORUS. This repository contains several implementations of the Ascon hardware cipher.
 
@@ -117,7 +117,7 @@ Energy-efficient implementations of Ascon-128 and Ascon-128a by Michael Fivez, i
 
 * Developers: [Hannes Groß](https://github.com/hgrosz)
 * [Official Repository](https://github.com/hgrosz/ascon_dom)
-* Master Thesis: [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://eprint.iacr.org/2016/486)
+* Paper: [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://eprint.iacr.org/2016/486)
 
 Side-channel protected hardware implementations of Ascon-128 and Ascon-128a by Hannes Groß using domain-oriented masking.
 
