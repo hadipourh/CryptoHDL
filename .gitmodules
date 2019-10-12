@@ -10,3 +10,9 @@
 [submodule "klein-vhdl"]
 	path = klein-vhdl
 	url = https://github.com/huljar/klein-vhdl
+[submodule "Ascon/ascon_hardware_implementation"]
+	path = Ascon/ascon_hardware_implementation
+	url = https://github.com/michaelfivez/ascon_hardware_implementation
+[submodule "Ascon/ascon_dom"]
+	path = Ascon/ascon_dom
+	url = https://github.com/hgrosz/ascon_dom
