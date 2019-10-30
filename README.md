@@ -28,6 +28,13 @@ The motivation of creating this repository is to have a centralized point where 
 <a name="aes1"></a>
 ## AES
 
+*VHDL implementation of AES encryption,and decryption algorithms*
+
+* Developers: [Hosein Hadipour](https://github.com/hadipourh)
+* [Official Repository](https://github.com/hadipourh/AES-VHDL)
+
+There are simple VHDL implementations of AES-128 encryption, and decryption algorithms, in this repository. This is actually my first experience in VHDL implementation! (https://hadipourh.github.io/AES-VHDL/).
+
 *This repository includes the hardware designs of AES cipher*
 
 * Developers: [Amir Moradi](https://github.com/amircrypto001)
@@ -218,5 +225,5 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
 
 <a name="license"></a>
-# License
-
+# Licenses
+Two types of licenses are used in this repositories, GPL, and BSD.
