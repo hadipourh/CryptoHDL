@@ -8,13 +8,12 @@ The motivation of creating this repository is to have a centralized point where 
 ## Contents
 1. [AES](#aes1)
 2. [CRAFT](#craft)
-3. [Skinny](#skinny1)
-4. [Skinny64](#skinny2)
+3. [Gimli](#gimli)
+4. [Klein](#klein1)
 5. [Present](#present1)
 6. [Prince](#prince1)
-7. [Klein](#klein1)
-8. [Gimli](#gimli)
-9. [Ascon](#ascon)
+7. [Skinny](#skinny1)
+8. [Skinny64](#skinny2)
 
 
 <a name="craft"></a>
