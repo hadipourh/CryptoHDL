@@ -6,8 +6,8 @@ A list of VHDL codes implementing cryptographic algorithms
 The motivation of creating this repository is to have a centralized point where all VHDL implementation of cryptographic algorithms can be found. I do my best to keep it updated. If you find or have any VHDL implementation of cryptographic algorithm that are missing, don't hesitate to contribute. :smile:
 
 ## Contents
-1. [CRAFT](#craft)
-2. [AES](#aes1)
+1. [AES](#aes1)
+2. [CRAFT](#craft)
 3. [Skinny](#skinny1)
 4. [Skinny64](#skinny2)
 5. [Present](#present1)
