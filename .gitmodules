@@ -16,3 +16,6 @@
 [submodule "Ascon/ascon_dom"]
 	path = Ascon/ascon_dom
 	url = https://github.com/hgrosz/ascon_dom
+[submodule "AES-VHDL"]
+	path = AES-VHDL
+	url = https://github.com/hadipourh/AES-VHDL
