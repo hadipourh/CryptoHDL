@@ -28,7 +28,7 @@ The motivation of creating this repository is to have a centralized point where 
 <a name="aes1"></a>
 ## AES
 
-*VHDL implementation of AES encryption,and decryption algorithms*
+*VHDL implementation of AES encryption, and decryption algorithms*
 
 * Developers: [Hosein Hadipour](https://github.com/hadipourh)
 * [Official Repository](https://github.com/hadipourh/AES-VHDL)
@@ -226,4 +226,4 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 
 <a name="license"></a>
 # Licenses
-Two types of licenses are used in this repositories, GPL, and BSD.
+Two common types of licenses used in these repositories, are GPL, and BSD.
