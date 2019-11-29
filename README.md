@@ -16,13 +16,15 @@ The motivation of creating this repository is to have a centralized point where 
 8. [Klein](#klein1)
 9. [LED128](#led128_1)
 10. [LED64](#led64_1)
-11. [Midori](#midori1)
-12. [Piccolo](#piccolo)
-13. [PRESENT](#present1)
-14. [Prince](#prince1)
-15. [Simon](#simon1)
-16. [Skinny](#skinny1)
-17. [Skinny64](#skinny2)
+11. [LowMC](#lowmc)
+12. [Midori](#midori1)
+13. [Piccolo](#piccolo)
+14. [Picnic](#picnic)
+15. [PRESENT](#present1)
+16. [Prince](#prince1)
+17. [Simon](#simon1)
+18. [Skinny](#skinny1)
+19. [Skinny64](#skinny2)
 
 
 <a name="aes1"></a>
@@ -146,6 +148,16 @@ There are 3 folders for the VHDL source code of different implementations of LED
 
 There are 3 folders for the VHDL source code of different implementations of LED-64 in this repository.
 
+<a name="lowmc"></a>
+## LowMC
+
+*VHDL source code for LowMC*
+* Developers: [Roman Walch](https://github.com/rw0x0)
+* [Official Repository](https://github.com/IAIK/Picnic-FPGA)
+* Paper: ["Efficient FPGA Implementations of LowMC and Picnic". Daniel Kales, Sebastian Ramacher, Christian Rechberger, Roman Walch, and Mario Werner](https://eprint.iacr.org/2019/1368.pdf)
+
+FPGA implementation of Picnic and LowMC. 
+
  <a name="midori1"></a>
  ## Midori
  
@@ -164,6 +176,16 @@ There are 3 folders for the VHDL source code of different implementations of Mid
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
 
 There are 3 folders for the VHDL source code of different implementations of Piccolo in this repository.
+
+<a name="picnic"></a>
+## Picnic
+
+*VHDL source code for Picnic*
+* Developers: [Roman Walch](https://github.com/rw0x0)
+* [Official Repository](https://github.com/IAIK/Picnic-FPGA)
+* Paper: ["Efficient FPGA Implementations of LowMC and Picnic". Daniel Kales, Sebastian Ramacher, Christian Rechberger, Roman Walch, and Mario Werner](https://eprint.iacr.org/2019/1368.pdf)
+
+FPGA implementation of Picnic and LowMC.
 
 <a name="present1"></a>
 ## PRESENT

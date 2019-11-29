@@ -19,3 +19,6 @@
 [submodule "AES-VHDL"]
 	path = AES-VHDL
 	url = https://github.com/hadipourh/AES-VHDL
+[submodule "Picnic-FPGA"]
+	path = Picnic-FPGA
+	url = https://github.com/IAIK/Picnic-FPGA
