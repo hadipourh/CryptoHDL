@@ -74,6 +74,7 @@ Side-channel protected hardware implementations of Ascon-128 and Ascon-128a by H
 * Paper: [Lightweight Tweakable Block Cipher with Efficient Protection Against DFA Attacks. IACR Trans. Symmetric Cryptol. 2019](https://eprint.iacr.org/2019/210)
 
 There are 6 folders for the VHDL source code of different implementations of CRAFT. Apart from the unprotected implementation, all other designs MUST be synthesized by "keeping the hierarchy". Otherwise, no fault-detection and no protection against SCA is guaranteed. (https://sites.google.com/view/craftcipher/implementation).
+
 ---
 *Hardware implementation of CRAFT secured against Statistical Ineffective
 Fault Attack (SIFA) attack*
