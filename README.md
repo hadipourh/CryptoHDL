@@ -7,7 +7,7 @@ The motivation of creating this repository is to have a centralized point where 
 
 ## Contents
 1. [AES](#aes1)
-2. [Ascon](#Ascon)
+2. [Ascon](#ascon)
 3. [CRAFT](#craft)
 4. [GIFT](#gift1)
 5. [Gimli](#gimli)
