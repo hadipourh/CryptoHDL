@@ -81,7 +81,7 @@ There are 6 folders for the VHDL source code of different implementations of CRA
 *Hardware implementation of CRAFT secured against Statistical Ineffective
 Fault Attack (SIFA) attack*
 
-* Developers: [Amir Moradi](https://github.com/amircrypto001), [Aein Rezaei Shahmirzadi] (https://github.com/AeinRezaeiShahmirzadi)
+* Developers: [Amir Moradi](https://github.com/amircrypto001), [Aein Rezaei Shahmirzadi](https://github.com/AeinRezaeiShahmirzadi)
 * [Official Repository](https://github.com/emsec/ImpeccableCircuitsII)
 * Paper: ["Impeccable Circuits II" authored by Aein Rezaei Shahmirzadi, Shahram Rasoolzadeh, and Amir Moradi.](https://eprint.iacr.org/2019/1369.pdf)
 
