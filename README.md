@@ -37,6 +37,7 @@ The motivation of creating this repository is to have a centralized point where 
 
 There are simple VHDL implementations of AES-128 encryption, and decryption algorithms, in this repository. This is actually my first experience in VHDL implementation! (https://hadipourh.github.io/AES-VHDL/).
 
+---
 *This repository includes the hardware designs of AES cipher*
 
 * Developers: [Amir Moradi](https://github.com/amircrypto001)
@@ -56,6 +57,7 @@ There are 3 folders for the VHDL source code of different implementations of AES
 
 Energy-efficient implementations of Ascon-128 and Ascon-128a by Michael Fivez, including a comparison with Joltik and MORUS. This repository contains several implementations of the Ascon hardware cipher.
 
+---
 *Side-channel protected hardware implementations of Ascon*
 
 * Developers: [Hannes Groß](https://github.com/hgrosz)
@@ -207,6 +209,7 @@ FPGA implementation of Picnic and LowMC.
 
 There are 3 folders for the VHDL source code of different implementations of PRESENT in this repository.
 
+---
 *A VHDL implementation of the PRESENT cipher*
 
 * Developer: [Julian Harttung](https://github.com/huljar)
