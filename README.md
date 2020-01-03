@@ -261,4 +261,4 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 
 <a name="license"></a>
 # Licenses
-Two common types of licenses used in these repositories, are GPL, and BSD.
+GPL, and BSD are two common types of licenses which are used in these repositories.
