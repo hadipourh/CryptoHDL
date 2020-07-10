@@ -22,3 +22,6 @@
 [submodule "Picnic-FPGA"]
 	path = Picnic-FPGA
 	url = https://github.com/IAIK/Picnic-FPGA
+[submodule "UnrolledBlockCiphers"]
+	path = UnrolledBlockCiphers
+	url = https://github.com/KULeuven-COSIC/UnrolledBlockCiphers
