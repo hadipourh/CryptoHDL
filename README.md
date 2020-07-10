@@ -52,7 +52,7 @@ There are 3 folders for the VHDL source code of different implementations of AES
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/aes_128128_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -135,7 +135,7 @@ Three types VHDL implementations of KATAN, can be found in this repository.
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/katan_3280_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -144,7 +144,7 @@ This work compares unrolled combinational hardware implementations of six lightw
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/katan_6480_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -250,7 +250,7 @@ This is an implementation of the PRESENT lightweight block cipher as described i
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/present_6480_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -259,7 +259,7 @@ This work compares unrolled combinational hardware implementations of six lightw
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/present_64128_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -278,7 +278,7 @@ This is an implementation of the PRINCE lightweight block cipher as described in
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/prince_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -298,7 +298,7 @@ There are 3 folders for the VHDL source code of different implementations of Sim
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_3264_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -307,7 +307,7 @@ This work compares unrolled combinational hardware implementations of six lightw
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_3264_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -316,7 +316,7 @@ This work compares unrolled combinational hardware implementations of six lightw
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_64128_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -349,7 +349,7 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/speck_3264_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
@@ -358,7 +358,7 @@ This work compares unrolled combinational hardware implementations of six lightw
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
 * [Official Repository]https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/speck_64128_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
 
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
