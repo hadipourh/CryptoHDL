@@ -25,6 +25,7 @@ The motivation of creating this repository is to have a centralized point where 
 17. [Simon](#simon1)
 18. [Skinny](#skinny1)
 19. [Skinny64](#skinny2)
+20. [Speck](#speck)
 
 
 <a name="aes1"></a>
@@ -45,6 +46,15 @@ There are simple VHDL implementations of AES-128 encryption, and decryption algo
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
 
 There are 3 folders for the VHDL source code of different implementations of AES. Apart from the unprotected implementation, all other designs MUST be synthesized by "keeping the hierarchy". Otherwise, no fault-detection and no protection against SCA is guaranteed.
+
+---
+*Unrolled hardware implementation of AES-128-128*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/aes_128128_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
 <a name="ascon"></a>
 ## Ascon
@@ -119,6 +129,24 @@ Gimli is a 384-bit permutation designed to achieve high security with high perfo
 
 
 Three types VHDL implementations of KATAN, can be found in this repository.
+
+---
+*Unrolled hardware implementation of KATAN-32-80*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/katan_3280_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
+---
+*Unrolled hardware implementation of KATAN-64-80*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/katan_6480_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
 <a name="ktantan1"></a>
 ## KTANTAN
@@ -217,6 +245,24 @@ There are 3 folders for the VHDL source code of different implementations of PRE
 
 This is an implementation of the PRESENT lightweight block cipher as described in [this paper](https://link.springer.com/chapter/10.1007/978-3-540-74735-2_31). It encrypts individual blocks of 64 bit length with an 80 or 128 bit key. The desired key length can be set via the generic k (either K_80 or K_128).
 
+---
+*Unrolled hardware implementation of PRESENT-64-80*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/present_6480_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
+---
+*Unrolled hardware implementation of PRESENT-64-128*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/present_64128_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
 <a name="prince1"></a>
 ## Prince
 
@@ -226,6 +272,15 @@ This is an implementation of the PRESENT lightweight block cipher as described i
 * [Official Repository](https://github.com/huljar/prince-vhdl)
 
 This is an implementation of the PRINCE lightweight block cipher as described in [this paper](https://eprint.iacr.org/2012/529). It encrypts individual blocks of 64 bit length with a 128 bit key.
+
+---
+*Unrolled hardware implementation of Prince*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/prince_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
 <a name="simon1"></a>
 ## Simon
@@ -237,6 +292,34 @@ This is an implementation of the PRINCE lightweight block cipher as described in
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
 
 There are 3 folders for the VHDL source code of different implementations of Simon in this repository.
+
+---
+*Unrolled hardware implementation of Simon-32-64*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_3264_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
+---
+*Unrolled hardware implementation of Simon-32-64*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_3264_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
+---
+*Unrolled hardware implementation of Simon-64-128*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_64128_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
 
 <a name="skinny1"></a>
 ## Skinny
@@ -258,6 +341,26 @@ SKINNY is a family of very lightweight tweakable block ciphers.
 * Developers: [Amir Moradi](https://github.com/amircrypto001)
 * [Official Repository](https://github.com/emsec/ImpeccableCircuits/tree/master/Skinny64)
 * Paper: ["Impeccable Circuits". Anita Aghaie, Amir Moradi, Shahram Rasoolzadeh, Aein Rezaei Shahmirzadi, Falk Schellenberg, Tobias Schneider.](https://eprint.iacr.org/2018/203)
+
+<a name="speck"></a>
+## Speck
+
+*Unrolled hardware implementation of Speck-32-64*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/speck_3264_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
+
+---
+*Unrolled hardware implementation of Speck-64-128*
+
+* Developers: [Pieter Maene](https://github.com/pmaene)
+* [Official Repository]https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/speck_64128_unrolled)
+* Paper: ["Single-Cycle Implementations of Block Ciphers. Pieter Maene, and Ingrid Verbauwhede"](https://eprint.iacr.org/2015/658)
+
+This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
 <a name="license"></a>
 # Licenses
