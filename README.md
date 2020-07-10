@@ -303,15 +303,6 @@ There are 3 folders for the VHDL source code of different implementations of Sim
 This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
 
 ---
-*Unrolled hardware implementation of Simon-32-64*
-
-* Developers: [Pieter Maene](https://github.com/pmaene)
-* [Official Repository](https://github.com/KULeuven-COSIC/UnrolledBlockCiphers/tree/master/simon_3264_unrolled)
-* Paper: ["Single-Cycle Implementations of Block Ciphers". Pieter Maene, and Ingrid Verbauwhede](https://eprint.iacr.org/2015/658)
-
-This work compares unrolled combinational hardware implementations of six lightweight block ciphers, along with an AES implementation as a baseline.
-
----
 *Unrolled hardware implementation of Simon-64-128*
 
 * Developers: [Pieter Maene](https://github.com/pmaene)
